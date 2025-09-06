@@ -1,40 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# ALX Listing App
+
+A clean foundation for building an Airbnb-style listing page using **Next.js**, **TypeScript**, and **TailwindCSS**.
+
+---
+
+## Project Overview
+
+This project is the first milestone of the ALX Listing App. The goal is to scaffold a well-structured Next.js project with reusable components, TypeScript integration, and a responsive UI using TailwindCSS.  
+
+At this stage, the page displays placeholder listings in a card layout with titles, descriptions, and action buttons.
+
+---
+
+## Folder Structure
+
+alx-listing-app/
+├─ components/
+│ └─ common/
+│ ├─ Card.tsx
+│ └─ Button.tsx
+├─ constants/
+│ └─ index.ts
+├─ interfaces/
+│ └─ index.ts
+├─ pages/
+│ └─ index.tsx
+├─ public/
+│ └─ assets/
+│ ├─ placeholder1.jpg
+│ ├─ placeholder2.jpg
+│ ├─ placeholder3.jpg
+│ └─ ...other assets
+├─ styles/
+│ └─ globals.css
+├─ package.json
+└─ README.md
+
+yaml
+Copy code
+
+---
 
 ## Getting Started
 
-First, run the development server:
+1. **Install dependencies**:
 
 ```bash
+npm install
+Run the development server:
+
+bash
+Copy code
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open in browser:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit http://localhost:3000 to view the page.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Milestone 1 Status
+ Next.js app scaffolded with TypeScript and ESLint.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+ TailwindCSS configured.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+ Folder structure created with components, interfaces, constants, and assets.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+ Placeholder listings displayed using Card component.
 
-## Learn More
+ Responsive layout with header, main, and footer sections.
 
-To learn more about Next.js, take a look at the following resources:
+pgsql
+Copy code
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+✅ Paste this **exactly as-is** into your `README.md` and save. This is now aligned with the milestone requirements.  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+Do you want me to also **check your `Card.tsx` and `Button.tsx` files** to make sure the project is fully ready to submit?
